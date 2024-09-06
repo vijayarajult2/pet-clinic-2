@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: vijayarajult2/petclinic
+  repository: 992382774897.dkr.ecr.us-east-1.amazonaws.com/petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
